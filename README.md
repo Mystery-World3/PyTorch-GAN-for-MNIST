@@ -25,13 +25,13 @@ Berikut adalah perbandingan hasil dari epoch awal dan akhir.
 
 1.  **Kloning repositori ini:**
     ```bash
-    git clone [https://www.andarepository.com/](https://www.andarepository.com/)
-    cd [Nama Repositori Anda]
+    git clone https://github.com/Mystery-World3/PyTorch-GAN-for-MNIST.git
+    cd PyTorch-GAN-for-MNIST
     ```
 
 2.  **Instal dependensi yang dibutuhkan:**
     ```bash
-    pip install torch torchvision matplotlib numpy
+    pip install -r requirements.txt
     ```
 
 3.  **Jalankan Jupyter Notebook:**
@@ -42,10 +42,12 @@ Berikut adalah perbandingan hasil dari epoch awal dan akhir.
 
 ```
 /
+├── .gitignore              
 ├── gan_kelompokX.ipynb     
-├── generated_images/       
 ├── models/                 
-└── README.md
+├── generated_images/      
+├── README.md               
+└── requirements.txt  
 ```
 
 ---
