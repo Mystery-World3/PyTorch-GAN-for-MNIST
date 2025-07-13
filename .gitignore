@@ -1,13 +1,9 @@
-# Virtual Environment
 venv/
 .venv/
 
-# Dataset folder
 dataset/
 
-# Python cache
 __pycache__/
 *.pyc
 
-# Jupyter Notebook Checkpoints
 .ipynb_checkpoints
